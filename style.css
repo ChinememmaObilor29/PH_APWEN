@@ -1,0 +1,75 @@
+:root {
+    --font-playfair: 'Playfair Display', serif;
+    --font-rubik: 'Rubik', sans-serif;
+    --bg-main: '#fffff3';
+    --sm: 14px;
+    --md: 27px;
+    --lg: 42px;
+    --x: 100;
+    --xl: 200;
+    --xxl: 500;
+    --xxxl: 600;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0 4em 0 4em;
+}
+
+
+/* NAVBAR  */
+.container > nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.ul__1{
+    margin-right: auto;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.ul__2{
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+    margin-left: auto;
+}
+
+body {
+    background-color: var(--bg-main);
+    font-family: var(--font-rubik);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-playfair);
+
+}
+
+
+.header-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.header-intro h1{
+   font-size: var(--lg);
+   text-align: center;
+}
+
+.header-intro > section > span{
+    font-size: var(--sm);
+    text-align: center;
+}
